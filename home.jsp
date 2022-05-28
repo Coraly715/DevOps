@@ -1,5 +1,5 @@
 <html>
-<head><title>First JSP170</title></head>
+<head><title>First JSP150</title></head>
 <body>
   <%
     double num = Math.random();
