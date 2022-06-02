@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Game Site</title>
+        <title>Game Site - DEVOPS</title>
     </head>
     <body>
         <h2>Games</h2>
