@@ -1,17 +1,30 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>Coin Flipper</title>
-  </head>
-  <body>
-    <h1>Coin Flipper</h1>
-    <p>Flipping a coin...</p>
-    <% if(Math.random() < .5){ %>
-      <p>Heads!</p>
-    <% } else{ %>
-      <p>Tails!</p>
-    <% } %>
-    <hr>
-    <p>Refresh to flip again.</p>
-  </body>
+<body>
+<form action="Factorial.jsp">
+Enter a value for n: <input type="text" name="val">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+<html>
+<body>
+<%!
+   long n, result;
+   String str;
+
+   long fact(long n) {
+      if(n==0)        
+         return 1;   
+      else
+         return n*fact(n-1);
+   }
+%>
+<%    
+    str = request.getParameter("val");    
+    n = Long.parseLong(str);   
+    result = fact(n);
+%>
+<b>Factorial value: </b> <%= result %>
+</body>
 </html>
