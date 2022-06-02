@@ -1,30 +1,18 @@
 <html>
+<head><title>Firstfdsfsdfsdfsdfsdf</title></head>
 <body>
-<form action="Factorial.jsp">
-Enter a value for n: <input type="text" name="val">
-<input type="submit" value="Submit">
-</form>
-</body>
-</html>
-
-<html>
-<body>
-<%!
-   long n, result;
-   String str;
-
-   long fact(long n) {
-      if(n==0)        
-         return 1;   
-      else
-         return n*fact(n-1);
-   }
-%>
-<%    
-    str = request.getParameter("val");    
-    n = Long.parseLong(str);   
-    result = fact(n);
-%>
-<b>Factorial value: </b> <%= result %>
+  <%
+    double num = Math.random();
+    if (num > 0.95) {
+  %>
+      <h2>You'll have a luck day !! Change2</h2><p>(<%= num %>)</p>
+  <%
+    } else {
+  %>
+      <h2>Well, life goes on Change2... </h2><p>(<%= num %>)</p>
+  <%
+    }
+  %>
+  <a href="<%= request.getRequestURI() %>"><h3>Try Again</h3></a>
 </body>
 </html>
