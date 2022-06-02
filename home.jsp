@@ -47,9 +47,8 @@
         <form name="form2" method="get">
             <input name="no1">
             <input name="no2">
-            <input type="hidden" name="button" button style="background-color: green value="SUB">
+            <input type="hidden" name="button" button style="background-color: green;" value="SUB">
             <input type="submit" value="SUB">
-            <button style="background-color: green;" type="button">
         </form>
         <form name="form3" method="get">
                     <input name="no1">
