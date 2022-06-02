@@ -4,7 +4,7 @@
         <title>Using Multiple Forms</title>
     </head>
     <body><style>h1{
-            color:red;
+            color:blue;
             font-size:25px;
     }
         </style>
