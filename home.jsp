@@ -18,16 +18,16 @@
            if(request.getParameter("no1").equals("")) { no1 = 0; } else no1 = Integer.valueOf(request.getParameter("no1"));
            if(request.getParameter("no2").equals("")) { no2 = 0; } else no2 = Integer.valueOf(request.getParameter("no2"));
            if (s.equals("ADD")) {
-               out.println("Result is " + (no1 + no2));
+               out.println("Result: " + (no1 + no2));
            }
            else if (s.equals("SUB")) {
-               out.println("Result is " + (no1-no2));
+               out.println("Result: " + (no1-no2));
            }
            else if(s.equals("MUL")) {
-               out.println("Result is " + (no1*no2));
+               out.println("Result: " + (no1*no2));
            }
            else if(s.equals("DIV")) {
-               out.println("Result is " + (no1/no2));
+               out.println("Result: " + (no1/no2));
            }
        
         %>
