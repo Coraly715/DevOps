@@ -3,14 +3,13 @@
     <head>
         <title>Using Multiple Forms</title>
     </head>
-    <body>
-    <style>
-     .button {
-      background-color:blue;
-      border-color:red;
-      color:white;
-      }
-    </style>
+    <body><style>h1{
+            color:red;
+            font-size:20px;
+    }
+        </style>
+    </head>
+    <body><h1>My large text heading</h1>
         <h1>Using Multiple</h1>
         <%
             if(request.getParameter("button") != null) {
