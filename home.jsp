@@ -5,12 +5,11 @@
     </head>
     <body><style>h1{
             color:red;
-            font-size:20px;
+            font-size:25px;
     }
         </style>
     </head>
-    <body><h1>My large text heading</h1>
-        <h1>Using Multiple</h1>
+    <body><h1>Calculator</h1>
         <%
             if(request.getParameter("button") != null) {
         %>
@@ -40,15 +39,14 @@
         <form name="form1" method="get">
             <input name="no1">
             <input name="no2">
-            <input type="hidden" class="button">Home>
+            <input type="hidden" name="button" value="ADD">
             <input type="submit" value="ADD">
         </form>
         <form name="form2" method="get">
             <input name="no1">
             <input name="no2">
-            <input type="hidden" name="button" button style="background-color: blue;color: white;border: 1px solid #e4e4e4;padding: 8px;border-radius: 3px;cursor: pointer;" value="SUB">
+            <input type="hidden" name="button" value="SUB">
             <input type="submit" value="SUB">
-           
         </form>
         <form name="form3" method="get">
                     <input name="no1">
