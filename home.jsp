@@ -1,7 +1,7 @@
 <%@ page language="java"%>
 <html>
     <head>
-        <title>Using Multiple Forms</title>
+        <title>Calculator</title>
     </head>
     <body><style>h1{
             color:blue;
