@@ -4,7 +4,7 @@
         <title>Calculator</title>
     </head>
     <body><style>h1{
-            color:blue;
+            color:red;
             font-size:25px;
     }
         </style>
